@@ -1,0 +1,1 @@
+SELECT idLlamada,fechaDeLlamada,telefono, ld.tipoDeLlamada,(tiempoDialogo/60), c.costo as tiempoDialogo FROM logDial as ld, costos as c WHERE ld.tipoDeLlamada = c.tipoDeLlamada AND MONTH(ld.fechaDeLlamada) = 1;

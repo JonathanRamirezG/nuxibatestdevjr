@@ -1,0 +1,1 @@
+SELECT * FROM logDial WHERE tipoDeLlamada = 'Cel LD' AND MONTH(fechaDeLlamada) = 2;
